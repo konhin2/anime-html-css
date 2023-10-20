@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Lionel Messi</title>
+		<link rel="stylesheet" href="styles.css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Barlow+Condensed|Barlow:600|Rasa:300,500"
+			rel="stylesheet"
+		/>
+	</head>
+
+	<body>
+		<!-- Barra de navegación -->
+		<nav>
+			<ul>
+				<li><a href="#historia">Historia</a></li>
+				<li><a href="#equipos">Equipos</a></li>
+				<li><a href="#datos-curiosos">Datos Curiosos</a></li>
+				<li><a href="#estadisticas">Estadisticas</a></li>
+				<li><a href="#video">Video</a></li>
+				<li><a href="#suscripcion">Suscríbete</a></li>
+			</ul>
+		</nav>
+
+		<!-- Sección del Encabezado -->
+		<header>
+			<div class="content-center">
+				<h1>Lionel Messi</h1>
+				<p>El Rey del Fútbol</p>
+				<a href="#historia" class="estilo-boton">Saber Más</a>
+			</div>
+		</header>
+
+		<!-- Sección de Historia -->
+		<section id="historia">
+			<h2>Historia</h2>
+			<p>
+				Lionel Messi es un futbolista argentino que ha jugado para el FC
+				Barcelona, Paris Saint-Germain y la selección argentina. De
+				adolescente, se trasladó de Argentina a España cuando el FC
+				Barcelona accedió a pagar por sus tratamientos médicos
+				relacionados con un trastorno de hormona de crecimiento. En el
+				Barcelona, se consagró como uno de los mejores futbolistas de la
+				historia, llevando al equipo a ganar numerosos títulos. En 2012,
+				estableció un récord de más goles en un año y, una década
+				después, ayudó a Argentina a ganar su tercer Mundial de la FIFA.
+				Ganador de siete Balones de Oro, se trasladó al Paris
+				Saint-Germain en 2021 y, en julio de 2023, se unió al club Inter
+				Miami de la MLS.
+			</p>
+		</section>
+
+		<!-- Sección de Equipos -->
+		<section id="equipos">
+			<h2>Equipos</h2>
+			<ul>
+				<li>
+					<img
+						src="./img/barcelona.png"
+						alt="FC Barcelona (2000-2021)"
+					/>
+					<a
+						href="https://es.wikipedia.org/wiki/F%C3%BAtbol_Club_Barcelona"
+						class="estilo-boton"
+						>FC Barcelona (2000-2021)</a
+					>
+				</li>
+				<li>
+					<img
+						src="./img/psg.png"
+						alt="Paris Saint-Germain (2021-2023)"
+					/>
+					<a
+						href="https://es.wikipedia.org/wiki/Paris_Saint-Germain_Football_Club"
+						class="estilo-boton"
+						>Paris Saint-Germain (2021-2023)</a
+					>
+				</li>
+
+				<li>
+					<img
+						src="./img/inter-miami.png"
+						alt="Inter de Miami (2023-Presente)"
+					/>
+					<a
+						href="https://es.wikipedia.org/wiki/Inter_de_Miami"
+						class="estilo-boton"
+						>Inter de Miami (2023-Presente)</a
+					>
+				</li>
+			</ul>
+		</section>
+
+		<!-- Sección de Datos Curiosos -->
+		<section id="datos-curiosos">
+			<h2>Datos Curiosos</h2>
+			<ul>
+				<li>
+					Messi ha ganado múltiples Balones de Oro, otorgados al mejor
+					jugador del mundo.
+				</li>
+				<li>
+					Comenzó a jugar al fútbol en su ciudad natal, Rosario, para
+					el equipo Newell's Old Boys.
+				</li>
+				<!-- Agregar otros datos curiosos según sea necesario -->
+			</ul>
+		</section>
+
+		<!-- Sección del Frases -->
+		<section id="frases">
+			<div class="content-center">
+				<h1>
+					“El día en que parezca que no hay mejoras por hacer será un
+					día muy triste para cualquier jugador.”
+				</h1>
+				<p>- Lionel Messi</p>
+			</div>
+		</section>
+
+		<!-- Tabla de Estadisticas -->
+		<section id="estadisticas">
+			<h2>Estadísticas 2023</h2>
+			<table>
+				<thead>
+					<tr>
+						<th>Equipo</th>
+						<th>Partidos Jugados</th>
+						<th>Goles</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Paris Saint-Germain</td>
+						<td>30</td>
+						<td>25</td>
+					</tr>
+					<tr>
+						<td>Selección Argentina</td>
+						<td>10</td>
+						<td>8</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+
+		<!-- Video Incorporado -->
+		<section id="video">
+			<h2>Mejores Jugadas de Messi</h2>
+			<iframe
+				width="560"
+				height="315"
+				src="https://www.youtube.com/embed/pPNV3nX7iVs?si=FvE6t-UmBsexExTM"
+				title="YouTube video player"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+				allowfullscreen
+			></iframe>
+		</section>
+
+		<!-- Formulario de Inscripción para el Boletín -->
+		<section id="suscripcion">
+			<h2>¡Únete al Club de Fans de Messi!</h2>
+			<form action="#" method="post">
+				<label for="nombre">Nombre:</label>
+				<input type="text" id="nombre" name="nombre" required />
+
+				<label for="correo">Correo Electrónico:</label>
+				<input type="email" id="correo" name="correo" required />
+
+				<button class="estilo-boton" type="submit">Unirse</button>
+			</form>
+		</section>
+
+		<!-- Sección del Pie de Página -->
+		<footer>
+			<p>Creado con ❤ por Punto Code</p>
+			<p>
+				Encuentra más sobre Lionel Messi en
+				<a href="https://messi.com/" target="_blank"
+					>su perfil oficial</a
+				>.
+			</p>
+		</footer>
+	</body>
+</html>

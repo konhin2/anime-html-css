@@ -1,0 +1,122 @@
+/******************* Codigo: Modulo 1 ********************/
+/*********************************************************/
+
+/* Tipografía y colores base */
+body {
+	background-color: #f0ede6;
+	color: #333;
+	line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-transform: uppercase;
+}
+
+a {
+	color: #000000;
+}
+
+/* Header */
+header {
+	background-image: url("/img/animes.jpg");
+	background-size: cover;
+	height: 600px;
+	color: #fff;
+}
+
+/* Footer */
+footer {
+	background-color: #000000;
+	color: #fff;
+}
+
+/******************* Codigo: Modulo 2 ********************/
+/*********************************************************/
+
+/* Reset básico para navegador */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Navegación */
+nav ul {
+	background-color: #000000;
+	list-style-type: none;
+	padding: 1em 0;
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/* Estilo para Botones */
+.estilo-boton {
+	background-color: #d9e3da;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+/* Secciones */
+#historia,
+#animes,
+#datos-curiosos,
+#animes-populares,
+#video,
+#suscripcion {
+	margin: 20px;
+	padding: 20px;
+	background-color: #fff;
+}
+
+/******************* Nuevo Módulo 3 ********************/
+/*****************************************************/
+
+/* Navegación */
+
+nav a:hover {
+	color: #000000;
+	padding: 5px 10px;
+	background-color: #d9e3da;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+/* Estilo para Botones */
+
+.estilo-boton:hover {
+	background-color: #a7bea9;
+}
+
+/* Footer */
+
+footer a {
+	color: #d9e3da;
+}
+
+footer a:hover {
+	color: #000000;
+	padding: 5px 10px;
+	background-color: #d9e3da;
+	font-size: 13px;
+	text-transform: uppercase;
+	text-decoration: none;
+}

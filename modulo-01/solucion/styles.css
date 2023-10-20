@@ -1,0 +1,33 @@
+/* Tipografía y colores base */
+body {
+	background-color: #f0ede6;
+	color: #333;
+	line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-transform: uppercase;
+}
+
+a {
+	color: #000000;
+}
+
+/* Header */
+header {
+	background-image: url("/img/animes.jpg");
+	background-size: cover;
+	height: 600px;
+	color: #fff;
+}
+
+/* Footer */
+footer {
+	background-color: #000000;
+	color: #fff;
+}
